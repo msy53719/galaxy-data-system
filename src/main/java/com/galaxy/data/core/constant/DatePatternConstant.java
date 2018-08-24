@@ -1,6 +1,6 @@
 package com.galaxy.data.core.constant;
 
-public class DateFormatConstant {
+public class DatePatternConstant {
 	public static final String YEARFORMAT = "yyyy";
 	public static final String MONTHFORMAT = "yyyy-MM";
 	public static final String DAYFORMAT = "yyyy-MM-dd";
