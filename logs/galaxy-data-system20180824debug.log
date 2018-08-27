@@ -319,3 +319,369 @@
 2018-08-24 18:36:42.449 [qtp2083154356-25] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
 2018-08-24 18:36:42.449 [qtp2083154356-25] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
 2018-08-24 18:36:42.449 [qtp2083154356-25] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 19:58:21.576 [main] INFO  com.galaxy.data.server.start.StartServer-Starting StartServer on JRA1164529C531 with PID 9040 (D:\git\galaxy-data-system\target\classes started by moshiyong in D:\git\galaxy-data-system)
+2018-08-24 19:58:21.606 [main] DEBUG com.galaxy.data.server.start.StartServer-Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-08-24 19:58:21.607 [main] INFO  com.galaxy.data.server.start.StartServer-No active profile set, falling back to default profiles: default
+2018-08-24 19:58:21.697 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6dc17b83: startup date [Fri Aug 24 19:58:21 CST 2018]; root of context hierarchy
+2018-08-24 19:58:21.785 [background-preinit] DEBUG org.jboss.logging-Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-08-24 19:58:21.787 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 5.3.6.Final
+2018-08-24 19:58:21.824 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver-Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-08-24 19:58:23.708 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver-Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-08-24 19:58:23.723 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver-Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-08-24 19:58:23.727 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl-Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-08-24 19:58:23.727 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl-Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-08-24 19:58:23.729 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl-Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy43
+2018-08-24 19:58:23.730 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser-Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-08-24 19:58:23.731 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper-Trying to load META-INF/validation.xml via user class loader
+2018-08-24 19:58:23.732 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper-Trying to load META-INF/validation.xml via TCCL
+2018-08-24 19:58:23.733 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper-Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-08-24 19:58:23.733 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser-No META-INF/validation.xml found. Using annotation based configuration only.
+2018-08-24 19:58:23.973 [main] INFO  org.eclipse.jetty.util.log-Logging initialized @3661ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-24 19:58:24.475 [main] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainerFactory-Server initialized with port: 8081
+2018-08-24 19:58:24.480 [main] INFO  org.eclipse.jetty.server.Server-jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_171-b11
+2018-08-24 19:58:24.746 [main] INFO  org.eclipse.jetty.server.session-DefaultSessionIdManager workerName=node0
+2018-08-24 19:58:24.751 [main] INFO  org.eclipse.jetty.server.session-No SessionScavenger set, using defaults
+2018-08-24 19:58:24.754 [main] INFO  org.eclipse.jetty.server.session-node0 Scavenging every 600000ms
+2018-08-24 19:58:24.762 [main] INFO  o.e.j.server.handler.ContextHandler.application-Initializing Spring embedded WebApplicationContext
+2018-08-24 19:58:24.763 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3067 ms
+2018-08-24 19:58:24.931 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean-Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-24 19:58:24.934 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-24 19:58:24.935 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-24 19:58:24.936 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-24 19:58:24.937 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-24 19:58:24.943 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler-Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@44cb460e{application,/,[file:///C:/Users/moshiyong/AppData/Local/Temp/jetty-docbase.4202595474285220205.8081/, jar:file:/D:/soft/jar/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2018-08-24 19:58:24.944 [main] INFO  org.eclipse.jetty.server.Server-Started @4633ms
+2018-08-24 19:58:25.469 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/getDate],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public java.lang.Object com.galaxy.data.core.controller.DateController.getDate(java.lang.String,java.lang.String)
+2018-08-24 19:58:25.471 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/getYDate],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public java.lang.Object com.galaxy.data.core.controller.DateController.getYDate(com.gaiaxy.data.core.dto.DateFormatDto)
+2018-08-24 19:58:25.479 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-08-24 19:58:25.481 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-08-24 19:58:25.482 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-08-24 19:58:25.488 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-24 19:58:25.489 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-24 19:58:25.736 [main] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-initialising the handler methods
+2018-08-24 19:58:25.739 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-08-24 19:58:25.865 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver-Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-08-24 19:58:25.879 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver-Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-08-24 19:58:25.883 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl-Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-08-24 19:58:25.883 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl-Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-08-24 19:58:25.883 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl-Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy43
+2018-08-24 19:58:25.885 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser-Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-08-24 19:58:25.886 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper-Trying to load META-INF/validation.xml via user class loader
+2018-08-24 19:58:25.888 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper-Trying to load META-INF/validation.xml via TCCL
+2018-08-24 19:58:25.889 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper-Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-08-24 19:58:25.889 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser-No META-INF/validation.xml found. Using annotation based configuration only.
+2018-08-24 19:58:26.067 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6dc17b83: startup date [Fri Aug 24 19:58:21 CST 2018]; root of context hierarchy
+2018-08-24 19:58:26.160 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-24 19:58:26.239 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-24 19:58:26.308 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-24 19:58:26.573 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2018-08-24 19:58:26.581 [main] INFO  o.s.context.support.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2018-08-24 19:58:26.582 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper-Context refreshed
+2018-08-24 19:58:26.610 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2018-08-24 19:58:26.679 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner-Scanning for api listing references
+2018-08-24 19:58:26.708 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2018-08-24 19:58:26.711 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Reading parameters models for handlerMethod |error|
+2018-08-24 19:58:26.714 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Finished reading parameters models for handlerMethod |error|
+2018-08-24 19:58:26.718 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider-Reading parameters models for handlerMethod |error|
+2018-08-24 19:58:26.729 [main] DEBUG s.documentation.schema.DefaultModelProvider-Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2018-08-24 19:58:26.730 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader-Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2018-08-24 19:58:26.731 [main] DEBUG s.d.schema.DefaultModelDependencyProvider-Marking base type Ljava/lang/Object; as seen
+2018-08-24 19:58:26.745 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: Map«string,object»
+2018-08-24 19:58:26.751 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method error
+2018-08-24 19:58:26.754 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:Map«string,object»
+2018-08-24 19:58:26.768 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: Map«string,object»
+2018-08-24 19:58:26.772 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method error
+2018-08-24 19:58:26.774 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:Map«string,object»
+2018-08-24 19:58:26.780 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: Map«string,object»
+2018-08-24 19:58:26.790 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method error
+2018-08-24 19:58:26.791 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:Map«string,object»
+2018-08-24 19:58:26.796 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: Map«string,object»
+2018-08-24 19:58:26.798 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method error
+2018-08-24 19:58:26.800 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:Map«string,object»
+2018-08-24 19:58:26.806 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: Map«string,object»
+2018-08-24 19:58:26.808 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method error
+2018-08-24 19:58:26.810 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:Map«string,object»
+2018-08-24 19:58:26.815 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: Map«string,object»
+2018-08-24 19:58:26.817 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method error
+2018-08-24 19:58:26.818 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:Map«string,object»
+2018-08-24 19:58:26.822 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: Map«string,object»
+2018-08-24 19:58:26.823 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method error
+2018-08-24 19:58:26.824 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:Map«string,object»
+2018-08-24 19:58:26.828 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: Map«string,object»
+2018-08-24 19:58:26.829 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method error
+2018-08-24 19:58:26.830 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:Map«string,object»
+2018-08-24 19:58:26.847 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2018-08-24 19:58:26.847 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Reading parameters models for handlerMethod |errorHtml|
+2018-08-24 19:58:26.851 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Finished reading parameters models for handlerMethod |errorHtml|
+2018-08-24 19:58:26.855 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider-Reading parameters models for handlerMethod |errorHtml|
+2018-08-24 19:58:26.882 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property view
+2018-08-24 19:58:26.889 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getView
+2018-08-24 19:58:26.891 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'view' renamed to 'view'
+2018-08-24 19:58:26.892 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property view to model
+2018-08-24 19:58:26.893 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getView
+2018-08-24 19:58:26.894 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getView
+2018-08-24 19:58:26.894 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getView
+2018-08-24 19:58:26.897 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getView
+2018-08-24 19:58:26.899 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property model
+2018-08-24 19:58:26.900 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModel
+2018-08-24 19:58:26.900 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'model' renamed to 'model'
+2018-08-24 19:58:26.900 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property model to model
+2018-08-24 19:58:26.900 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModel
+2018-08-24 19:58:26.901 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModel
+2018-08-24 19:58:26.901 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModel
+2018-08-24 19:58:26.901 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModel
+2018-08-24 19:58:26.901 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property status
+2018-08-24 19:58:26.902 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getStatus
+2018-08-24 19:58:26.902 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'status' renamed to 'status'
+2018-08-24 19:58:26.902 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property status to model
+2018-08-24 19:58:26.903 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getStatus
+2018-08-24 19:58:26.903 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getStatus
+2018-08-24 19:58:26.904 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getStatus
+2018-08-24 19:58:26.905 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getStatus
+2018-08-24 19:58:26.927 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property empty
+2018-08-24 19:58:26.928 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isEmpty
+2018-08-24 19:58:26.928 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'empty' renamed to 'empty'
+2018-08-24 19:58:26.929 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property empty to model
+2018-08-24 19:58:26.929 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isEmpty
+2018-08-24 19:58:26.929 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isEmpty
+2018-08-24 19:58:26.929 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isEmpty
+2018-08-24 19:58:26.929 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isEmpty
+2018-08-24 19:58:26.930 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property viewName
+2018-08-24 19:58:26.930 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getViewName
+2018-08-24 19:58:26.931 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'viewName' renamed to 'viewName'
+2018-08-24 19:58:26.931 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property viewName to model
+2018-08-24 19:58:26.931 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getViewName
+2018-08-24 19:58:26.931 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getViewName
+2018-08-24 19:58:26.932 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getViewName
+2018-08-24 19:58:26.932 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getViewName
+2018-08-24 19:58:26.932 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property reference
+2018-08-24 19:58:26.932 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isReference
+2018-08-24 19:58:26.933 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'reference' renamed to 'reference'
+2018-08-24 19:58:26.933 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property reference to model
+2018-08-24 19:58:26.933 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isReference
+2018-08-24 19:58:26.934 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isReference
+2018-08-24 19:58:26.934 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isReference
+2018-08-24 19:58:26.934 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member isReference
+2018-08-24 19:58:26.935 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property modelMap
+2018-08-24 19:58:26.935 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModelMap
+2018-08-24 19:58:26.935 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'modelMap' renamed to 'modelMap'
+2018-08-24 19:58:26.936 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property modelMap to model
+2018-08-24 19:58:26.936 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModelMap
+2018-08-24 19:58:26.936 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModelMap
+2018-08-24 19:58:26.936 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModelMap
+2018-08-24 19:58:26.937 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getModelMap
+2018-08-24 19:58:26.948 [main] DEBUG s.documentation.schema.DefaultModelProvider-Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+2018-08-24 19:58:26.950 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader-Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+2018-08-24 19:58:26.951 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader-Adding a new model with key ModelAndView
+2018-08-24 19:58:26.954 [main] DEBUG s.d.schema.DefaultModelDependencyProvider-Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2018-08-24 19:58:26.954 [main] DEBUG s.d.schema.DefaultModelDependencyProvider-Recursively resolving dependencies for value type Ljava/lang/Object;
+2018-08-24 19:58:26.955 [main] DEBUG s.d.schema.DefaultModelDependencyProvider-Marking base type Ljava/lang/Object; as seen
+2018-08-24 19:58:26.956 [main] DEBUG s.d.schema.DefaultModelDependencyProvider-Adding type Lorg/springframework/web/servlet/View; for parameter view
+2018-08-24 19:58:26.957 [main] DEBUG s.d.schema.DefaultModelDependencyProvider-Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2018-08-24 19:58:26.958 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property contentType
+2018-08-24 19:58:26.959 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getContentType
+2018-08-24 19:58:26.960 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'contentType' renamed to 'contentType'
+2018-08-24 19:58:26.960 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property contentType to model
+2018-08-24 19:58:26.961 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getContentType
+2018-08-24 19:58:26.961 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getContentType
+2018-08-24 19:58:26.961 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getContentType
+2018-08-24 19:58:26.962 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped getter for member getContentType
+2018-08-24 19:58:26.963 [main] DEBUG s.documentation.schema.DefaultModelProvider-Inferred 1 properties. Properties found contentType
+2018-08-24 19:58:26.964 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader-Adding a new model with key View
+2018-08-24 19:58:26.986 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: ModelAndView
+2018-08-24 19:58:26.990 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method errorHtml
+2018-08-24 19:58:26.994 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:ModelAndView
+2018-08-24 19:58:27.002 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: ModelAndView
+2018-08-24 19:58:27.005 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method errorHtml
+2018-08-24 19:58:27.007 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:ModelAndView
+2018-08-24 19:58:27.012 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: ModelAndView
+2018-08-24 19:58:27.013 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method errorHtml
+2018-08-24 19:58:27.015 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:ModelAndView
+2018-08-24 19:58:27.019 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: ModelAndView
+2018-08-24 19:58:27.021 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method errorHtml
+2018-08-24 19:58:27.023 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:ModelAndView
+2018-08-24 19:58:27.028 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: ModelAndView
+2018-08-24 19:58:27.030 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method errorHtml
+2018-08-24 19:58:27.031 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:ModelAndView
+2018-08-24 19:58:27.037 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: ModelAndView
+2018-08-24 19:58:27.040 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method errorHtml
+2018-08-24 19:58:27.042 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:ModelAndView
+2018-08-24 19:58:27.050 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: ModelAndView
+2018-08-24 19:58:27.051 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method errorHtml
+2018-08-24 19:58:27.054 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:ModelAndView
+2018-08-24 19:58:27.061 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: ModelAndView
+2018-08-24 19:58:27.064 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method errorHtml
+2018-08-24 19:58:27.074 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:ModelAndView
+2018-08-24 19:58:27.115 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Adding return parameter of type Ljava/lang/Object;
+2018-08-24 19:58:27.115 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Reading parameters models for handlerMethod |getDate|
+2018-08-24 19:58:27.118 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Finished reading parameters models for handlerMethod |getDate|
+2018-08-24 19:58:27.120 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider-Reading parameters models for handlerMethod |getDate|
+2018-08-24 19:58:27.121 [main] DEBUG s.documentation.schema.DefaultModelProvider-Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2018-08-24 19:58:27.122 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader-Did not find any parameter models for java.lang.Object
+2018-08-24 19:58:27.122 [main] DEBUG s.d.schema.DefaultModelDependencyProvider-Marking base type Ljava/lang/Object; as seen
+2018-08-24 19:58:27.139 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: object
+2018-08-24 19:58:27.140 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method getDate
+2018-08-24 19:58:27.143 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:object
+2018-08-24 19:58:27.144 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Adding return parameter of type Ljava/lang/Object;
+2018-08-24 19:58:27.145 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Reading parameters models for handlerMethod |getYDate|
+2018-08-24 19:58:27.146 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Adding input parameter of type Lcom/gaiaxy/data/core/dto/DateFormatDto;
+2018-08-24 19:58:27.146 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider-Finished reading parameters models for handlerMethod |getYDate|
+2018-08-24 19:58:27.147 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider-Reading parameters models for handlerMethod |getYDate|
+2018-08-24 19:58:27.147 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader-Did not find any parameter models for java.lang.Object
+2018-08-24 19:58:27.148 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property datetime
+2018-08-24 19:58:27.148 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setDatetime
+2018-08-24 19:58:27.148 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'datetime' renamed to 'datetime'
+2018-08-24 19:58:27.148 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property datetime to model
+2018-08-24 19:58:27.148 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setDatetime
+2018-08-24 19:58:27.148 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setDatetime
+2018-08-24 19:58:27.148 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setDatetime
+2018-08-24 19:58:27.149 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setDatetime
+2018-08-24 19:58:27.149 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Reading property pattern
+2018-08-24 19:58:27.150 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setPattern
+2018-08-24 19:58:27.150 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy-Name 'pattern' renamed to 'pattern'
+2018-08-24 19:58:27.150 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider-Adding property pattern to model
+2018-08-24 19:58:27.151 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setPattern
+2018-08-24 19:58:27.151 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setPattern
+2018-08-24 19:58:27.151 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setPattern
+2018-08-24 19:58:27.151 [main] DEBUG s.d.schema.property.bean.BeanModelProperty-Evaluating unwrapped setter for member setPattern
+2018-08-24 19:58:27.152 [main] DEBUG s.documentation.schema.DefaultModelProvider-Inferred 2 properties. Properties found datetime, pattern
+2018-08-24 19:58:27.155 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader-Generated parameter model id: DateFormatDto, name: DateFormatDto, schema: {} models
+2018-08-24 19:58:27.155 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader-Adding a new model with key DateFormatDto
+2018-08-24 19:58:27.166 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader-Setting spring response class to: object
+2018-08-24 19:58:27.168 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader-Authorization count 0 for method getYDate
+2018-08-24 19:58:27.169 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader-Setting response class to:object
+2018-08-24 19:58:27.220 [main] INFO  o.e.j.server.handler.ContextHandler.application-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-24 19:58:27.221 [main] INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-24 19:58:27.246 [main] INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-08-24 19:58:27.300 [main] INFO  org.eclipse.jetty.server.AbstractConnector-Started ServerConnector@17271176{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2018-08-24 19:58:27.301 [main] INFO  o.s.b.c.e.jetty.JettyEmbeddedServletContainer-Jetty started on port(s) 8081 (http/1.1)
+2018-08-24 19:58:27.315 [main] INFO  com.galaxy.data.server.start.StartServer-Started StartServer in 6.377 seconds (JVM running for 7.004)
+2018-08-24 19:58:45.089 [qtp991242536-26] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /swagger-ui.html
+2018-08-24 19:58:45.089 [qtp991242536-26] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /swagger-ui.html
+2018-08-24 19:58:45.092 [qtp991242536-26] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/swagger-ui.html]
+2018-08-24 19:58:46.079 [qtp991242536-22] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /swagger-resources/configuration/ui
+2018-08-24 19:58:46.079 [qtp991242536-22] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /swagger-resources/configuration/ui
+2018-08-24 19:58:46.079 [qtp991242536-22] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/swagger-resources/configuration/ui]
+2018-08-24 19:58:46.371 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /swagger-resources
+2018-08-24 19:58:46.372 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /swagger-resources
+2018-08-24 19:58:46.372 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/swagger-resources]
+2018-08-24 19:58:46.393 [qtp991242536-28] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /v2/api-docs
+2018-08-24 19:58:46.394 [qtp991242536-28] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /v2/api-docs
+2018-08-24 19:58:46.394 [qtp991242536-28] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Returning handler method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-08-24 19:58:46.746 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /swagger-resources/configuration/security
+2018-08-24 19:58:46.746 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /swagger-resources/configuration/security
+2018-08-24 19:58:46.746 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/swagger-resources/configuration/security]
+2018-08-24 19:59:10.994 [qtp991242536-24] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 19:59:10.996 [qtp991242536-24] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 19:59:10.996 [qtp991242536-24] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 19:59:11.521 [qtp991242536-24] WARN  org.eclipse.jetty.server.HttpChannel-/getYDate
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalArgumentException: Illegal pattern character 't'
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:215)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal pattern character 't'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826)
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634)
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605)
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580)
+	at com.galaxy.data.core.util.DateUtil.DateFrom(DateUtil.java:9)
+	at com.galaxy.data.core.serviceImp.DateServiceImp.getYear(DateServiceImp.java:16)
+	at com.galaxy.data.core.controller.DateController.getYDate(DateController.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 44 common frames omitted
+2018-08-24 19:59:11.557 [qtp991242536-24] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /error
+2018-08-24 19:59:11.557 [qtp991242536-24] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /error
+2018-08-24 19:59:11.557 [qtp991242536-24] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/error]
+2018-08-24 19:59:30.862 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 19:59:30.862 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 19:59:30.862 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 19:59:31.077 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 19:59:31.077 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 19:59:31.078 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 19:59:41.659 [qtp991242536-26] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 19:59:41.660 [qtp991242536-26] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 19:59:41.660 [qtp991242536-26] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 19:59:54.051 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 19:59:54.052 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 19:59:54.052 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 20:00:00.532 [qtp991242536-26] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 20:00:00.532 [qtp991242536-26] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 20:00:00.532 [qtp991242536-26] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 20:00:03.779 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 20:00:03.780 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 20:00:03.780 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 20:00:06.827 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 20:00:06.827 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 20:00:06.827 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 20:00:07.277 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 20:00:07.277 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 20:00:07.278 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 20:00:07.466 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 20:00:07.467 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 20:00:07.467 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 20:00:07.642 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 20:00:07.643 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 20:00:07.643 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 20:00:07.787 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 20:00:07.787 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 20:00:07.787 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 20:00:07.940 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 20:00:07.940 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 20:00:07.940 [qtp991242536-34] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]
+2018-08-24 20:00:17.788 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Looking up handler method for path /getYDate
+2018-08-24 20:00:17.789 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /getYDate
+2018-08-24 20:00:17.789 [qtp991242536-33] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Did not find handler method for [/getYDate]

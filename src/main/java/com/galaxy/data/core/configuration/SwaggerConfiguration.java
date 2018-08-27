@@ -17,7 +17,7 @@ public class SwaggerConfiguration {
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder().title("").description("构建接口测试").termsOfServiceUrl("").version("1.0").build();
+		return new ApiInfoBuilder().title("测试数据系统").description("测试数据系统接口").termsOfServiceUrl("").version("2.0").build();
 
 	}
 }
